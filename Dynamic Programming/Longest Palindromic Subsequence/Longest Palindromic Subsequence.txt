@@ -1,0 +1,20 @@
+Write a program to find the length of LPS in the given string using DP.
+
+Input format :
+String is the input
+
+Output format :
+The length of LPS in the given string.
+
+Code constraints :
+1 <= String length <= 10000
+
+Sample test cases :
+Input 1 :
+madam
+Output 1 :
+5
+Input 2 :
+Antman
+Output 2 :
+3

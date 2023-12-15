@@ -1,0 +1,68 @@
+Find shortest paths from source to all vertices in the given graph using Dijkstra's algorithm.
+
+Example
+
+Input
+
+0 4 0 0 0
+
+4 0 8 0 0
+
+0 8 0 7 0
+
+0 0 7 0 9
+
+0 0 0 9 0
+
+0
+
+Output
+
+Vertex 	 Distance from Source
+
+0 		 				0
+
+1 		 				4
+
+2 		 				12
+
+3 		 				19
+
+4 		 				28
+
+Explanation
+
+Calculate the shortest path from 0 to all remaining nodes using 0 as the source node. The shortest path is from node 0 to node1 is 4. To get to node 2, go from node 0 to node 1 (distance 4) and then from node 1 to node 2 (distance 8). The total distance is 12 . Repeat the process until all the nodes are visited.
+
+
+
+Input format :
+Adjacency matrix
+
+Source vertex
+
+Output format :
+Use below spacing format to print the output
+
+printf("Vertex \t Distance from Source\n"); 
+
+printf("%d \t\t %d\n", i, dist[i]); 
+
+Code constraints :
+V = 5
+
+Sample test cases :
+Input 1 :
+0 4 0 0 0
+4 0 8 0 0
+0 8 0 7 0
+0 0 7 0 9
+0 0 0 9 0
+0
+Output 1 :
+Vertex 	 Distance from Source
+0 		 0
+1 		 4
+2 		 12
+3 		 19
+4 		 28

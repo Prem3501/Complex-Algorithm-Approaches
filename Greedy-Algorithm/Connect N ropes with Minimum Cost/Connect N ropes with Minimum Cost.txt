@@ -1,0 +1,29 @@
+Given are N ropes of different lengths, the task is to connect these ropes into one rope with minimum cost, such that the cost to connect two ropes is equal to the sum of their lengths.
+
+Sample Input
+
+4
+
+4 3 2 6
+
+Sample Output
+
+29
+
+Explanation
+
+First, connect ropes of lengths 2 and 3  which will be combined as a node (2+3) = 5. Now we have three ropes of lengths 4, 6, and 5. 
+Now connect ropes of lengths 4 and 5 which will be combined as a node (4+5) = 9. Now we have two ropes of lengths 6 and 9. 
+Finally, connect the two ropes and all ropes have connected.
+Input format :
+The first line of input consists of N denoting the number of ropes
+
+The second line consists of ropes of different lengths
+
+Output format :
+Sample test cases :
+Input 1 :
+4
+4 3 2 6
+Output 1 :
+Total cost for connecting ropes is 29

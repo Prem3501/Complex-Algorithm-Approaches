@@ -1,0 +1,65 @@
+Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color. Here coloring of a graph means the assignment of colors to all vertices. 
+
+Write a program for the same.
+
+Example
+
+Input
+
+0 1 1 1
+
+1 0 1 0
+
+1 1 0 1
+
+1 0 1 0
+
+3
+
+Output
+
+Solution Exists:
+
+1 2 3 2
+
+Explanation
+
+Minimum 3 colors required for the above graph.
+
+Input format :
+The input consists of a 4x4 matrix.
+
+Then the number of colors.
+
+Output format :
+An array color[V] should have numbers from 1 to m. color[i] should represent the color assigned to the ith vertex. The code should also return false if the graph cannot be colored with m colors.
+
+Refer sample input and output for formatting specifications.
+
+Sample test cases :
+Input 1 :
+0 1 1 1
+1 0 1 0
+1 1 0 1
+1 0 1 0
+3
+Output 1 :
+Solution Exists:
+1 2 3 2 
+Input 2 :
+0 1 1 1
+1 1 1 0
+1 1 1 1
+1 1 1 1
+5
+Output 2 :
+Solution Exists:
+1 2 3 4 
+Input 3 :
+0 1 1 1
+1 1 1 0
+1 1 1 1
+1 1 1 1
+2
+Output 3 :
+Solution does not exist

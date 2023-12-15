@@ -1,0 +1,112 @@
+You are being appointed as the program manager for the cricket ground. Since it is a weekend, a lot of cricket matches are going to be conducted in the ground. As the manager of the ground management team your aim is to earn more profit by conducting the maximum number of matches in the ground. Assume that, only one match can be conducted at a time. Write a program to schedule maximum number of matches.
+
+Note
+
+If a match ends, the ground becomes free immediately.
+
+Print the matches in the order in which they are played.
+
+The maximum number of matches do not exceed 20.
+
+Example
+
+Input
+
+6
+
+match1
+
+1
+
+2
+
+match5
+
+3
+
+4
+
+match4
+
+0
+
+6
+
+match3
+
+5
+
+7
+
+match6
+
+8
+
+9
+
+match2
+
+5
+
+9
+
+Output
+
+Selected Activities are:
+
+match1 match5 match3 match6
+
+Explanation
+
+The shortest song is placed in the 0th index, followed by the second shortest song in the 1st index, and so on. Then the mean retrieval time is calculated.
+
+Input format :
+First input is an integer corresponding to the n, the number of activities. Followed by n number of input corresponding to the activity name (char array), start time(int) and finish time(int).
+
+Output format :
+Refer sample I/O for output formatting.
+
+Sample test cases :
+Input 1 :
+6
+match1
+1
+2
+match5
+3
+4
+match4
+0
+6
+match3
+5
+7
+match6
+8
+9
+match2
+5
+9
+Output 1 :
+Selected Activities are:
+match1 match5 match3 match6 
+Input 2 :
+5
+ride-1
+3
+5
+ride-2
+6
+8
+ride-3
+1
+4
+ride-4
+4
+7
+ride-5
+7
+10
+Output 2 :
+Selected Activities are:
+ride-3 ride-4 ride-5 

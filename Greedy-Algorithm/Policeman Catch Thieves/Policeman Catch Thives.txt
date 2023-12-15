@@ -1,0 +1,42 @@
+Given an array of size n that has the following specifications: 
+
+1.Each element in the array contains either a policeman or a thief.
+
+2.Each policeman can catch only one thief.
+
+A policeman cannot catch a thief who is more than K units away from the policeman. Write a Program to find the maximum number of thieves that can be caught.
+
+Example
+
+Input
+
+PTTPT
+
+1
+
+Output
+
+2
+
+Explanation
+
+Police can catch a one thief and 1 unit away from the police. So maximum 2 thieves can be caught. 
+
+Input format :
+The first line of input consists of an array that contains either a policeman or a thief.
+
+The second line consists of an integer representing the K(Units) value.
+
+
+
+Output format :
+The output prints the maximum number of thieves that can be caught.
+
+Refer to the sample input and output for formatting specifications.
+
+Sample test cases :
+Input 1 :
+PTTPT
+1
+Output 1 :
+2

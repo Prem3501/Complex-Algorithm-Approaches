@@ -1,0 +1,25 @@
+Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with a sum equal to the given sum
+
+Input format :
+Array size
+
+Array elements
+
+Sum to be produced
+
+Output format :
+Refer to the sample testcases.
+
+Sample test cases :
+Input 1 :
+5
+1 3 2 5 7
+12
+Output 1 :
+YES
+Input 2 :
+5
+1 3 2 5 7
+30
+Output 2 :
+NO

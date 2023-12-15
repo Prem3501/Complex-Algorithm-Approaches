@@ -1,0 +1,21 @@
+Write a code to find the Levenshtein Distance between the given two strings.
+
+Note: The Levenshtein distance also called the Edit distance, is the minimum number of operations required to transform one string to another.
+
+Input format :
+Both string1 and string2 are the inputs.
+
+Output format :
+The Levenshtein distance value of the given strings.
+
+Sample test cases :
+Input 1 :
+boogle
+gooble
+Output 1 :
+2
+Input 2 :
+silent
+violent
+Output 2 :
+2

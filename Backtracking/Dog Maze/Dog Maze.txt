@@ -1,0 +1,37 @@
+A dog has to move from starting point to it's end point where 1 represent free space and 0 represented blocked area.Print the path from 0,0 to n-1, n-1 if exists or print -1;
+
+
+
+Gray blocks are blocked so that dog cant move to that area.
+
+
+
+the above image is the solution or way from staring point to end point.
+
+
+
+Note : Direction towards right and towards bottom.
+
+Input format :
+First line contains N.
+
+Next N lines contains space separated integers.
+
+Output format :
+Output the solution_matrix if the destination point is reached.
+
+Code constraints :
+0<=N<=5
+
+Sample test cases :
+Input 1 :
+4
+1 0 0 0
+1 1 0 1  
+0 1 0 0
+1 1 1 1 
+Output 1 :
+1 0 0 0 
+1 1 0 0 
+0 1 0 0 
+0 1 1 1 

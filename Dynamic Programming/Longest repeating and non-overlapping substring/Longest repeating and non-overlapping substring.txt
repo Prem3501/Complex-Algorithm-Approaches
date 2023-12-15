@@ -1,0 +1,32 @@
+Given string str, find the longest repeating non-overlapping substring in it. In other words, find 2 identical substrings of maximum length which do not overlap. If there exists more than one such substring return any of them. Write a program for the same.
+
+
+
+Example:
+
+Input: 
+
+str = "aabaabaaba"
+
+Output: 
+
+aaba
+
+Input format :
+The input consists of a string.
+
+Output format :
+The output prints the longest repeating non-overlapping substring in it.
+
+Code constraints :
+Use Dynamic Programming
+
+Sample test cases :
+Input 1 :
+malayalam
+Output 1 :
+ala
+Input 2 :
+aabaabaaba
+Output 2 :
+aaba

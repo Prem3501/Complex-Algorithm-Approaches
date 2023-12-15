@@ -1,0 +1,60 @@
+Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters. The most frequent character gets the smallest code and the least frequent character gets the largest code.
+
+There are mainly two major parts in Huffman Coding
+
+Build a Huffman Tree from input characters.
+Traverse the Huffman Tree and assign codes to characters.
+You will be given an array of characters and an array of their frequencies, Write a program to find the Huffman code for each character.
+
+Example
+
+Input
+
+6
+
+a b c d e f
+
+5 9 12 13 16 45
+
+Output
+
+﻿f:0
+
+c:100
+
+d:101
+
+a:1100
+
+b:1101
+
+e:111
+
+Explanation
+
+Calculate the frequency of each character in the string and create Huffman tree , based on the tree create Huffman code.
+
+Input format :
+The first line of input consists of an integer N representing the number of characters.
+
+The second line consists of N characters separated by space
+
+The third line consists of N Integers separated by space representing the frequency of each character.
+
+Output format :
+The output prints the Huffman code of each character.
+
+Refer to the sample input and output for formatting specifications.
+
+Sample test cases :
+Input 1 :
+6
+a b c d e f
+5 9 12 13 16 45
+Output 1 :
+f:0
+c:100
+d:101
+a:1100
+b:1101
+e:111

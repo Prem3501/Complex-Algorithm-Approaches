@@ -1,0 +1,27 @@
+Given a number n, the task is to find the largest perfect cube that can be formed by deleting minimum digits(possibly by 0) from the number. x is called a perfect cube if X = Y3 for some Y.
+
+Example
+
+Sample Input
+
+4125
+
+Sample Output
+
+125
+
+Explanation
+
+125 = 53. We can form 125 by deleting digit 4 from 4125
+
+Input format :
+Input consists of an integer value
+
+Output format :
+It prints the largest perfect cube
+
+Sample test cases :
+Input 1 :
+4125
+Output 1 :
+Largest Cube that can be formed from 4125 is 125

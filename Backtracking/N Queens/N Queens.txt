@@ -1,0 +1,38 @@
+Write a program to solve N Queen's Problem using Backtracking.
+
+Example
+
+Input
+
+4
+
+Output
+
+0 0 1 0 
+
+1 0 0 0 
+
+0 0 0 1 
+
+0 1 0 0 
+
+Explanation
+
+Using the backtrack method, place four queens in the 4X4 board without attacking the other queens.
+
+Input format :
+First integer represents number of queens to be placed in the NxN board.
+
+Output format :
+The output prints the possible solution.
+
+Refer sample input and output for formatting specifications.
+
+Sample test cases :
+Input 1 :
+4
+Output 1 :
+0 0 1 0 
+1 0 0 0 
+0 0 0 1 
+0 1 0 0 

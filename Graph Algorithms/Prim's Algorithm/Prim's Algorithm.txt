@@ -1,0 +1,55 @@
+Write a program to find a minimum spanning tree from the given weighted and undirected Graph. Use Prim's Algorithm to solve this.
+
+Example
+
+Input
+
+5
+
+0 2 0 6 0
+
+2 0 3 8 5
+
+0 3 0 0 7
+
+6 8 0 0 9
+
+0 5 7 9 0
+
+Output
+
+0 1 2
+
+1 2 3
+
+0 3 6
+
+1 4 5
+
+Explanation
+
+Visit all the node with shortest path. Shortest path from 0 - 1 is 2, 1- 2 is 3, next shortest path is 0- 3 is 6 and 1-4 is 5 . Now all the nodes are visited.
+
+Input format :
+The first line of input represents the number of vertices V.
+
+The next V*V Matrix represents the adjacency matrix.
+
+Output format :
+Output prints the starting node, ending node, and edge weight of the minimum spanning tree.
+
+Refer to the sample input and output for formatting specifications
+
+Sample test cases :
+Input 1 :
+5
+0 2 0 6 0
+2 0 3 8 5
+0 3 0 0 7
+6 8 0 0 9
+0 5 7 9 0
+Output 1 :
+0 1 2
+1 2 3
+0 3 6
+1 4 5

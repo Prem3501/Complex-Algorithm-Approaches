@@ -1,0 +1,37 @@
+Given a binary matrix, find out the maximum size square sub-matrix with all 1s. 
+
+Input format :
+Row size of the matrix
+
+Column size of the matrix
+
+Matrix elements
+
+Output format :
+Refer to the sample test cases.
+
+Sample test cases :
+Input 1 :
+6 5
+0 1 1 0 1
+1 1 0 1 0
+0 1 1 1 0
+1 1 1 1 0
+1 1 1 1 1
+0 0 0 0 0
+Output 1 :
+1 1 1 
+1 1 1 
+1 1 1 
+Input 2 :
+6 5
+0 1 1 0 1
+1 1 0 1 0
+0 1 1 1 0
+1 1 1 1 0
+1 1 1 1 1
+0 1 1 1 0
+Output 2 :
+1 1 1 
+1 1 1 
+1 1 1 

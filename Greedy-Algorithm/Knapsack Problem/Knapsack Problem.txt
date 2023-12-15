@@ -1,0 +1,61 @@
+A young lad has joined the military forces and is aimed to be part of it for a long time. With courage, he is starting at the military base. But the problem is, as per the military rule he has to bring a limited weight of luggage. He is having a lot of items to be packed up for his use. Can you please help the young lad with given a set of items, each with a mass and a value of importance, determine the number of each item to include in a collection so that, the total weight is less than or equal to a given limit and the total value is as large as possible.
+
+Example
+
+Input
+
+7
+
+2 10
+
+3 5
+
+5 15
+
+7 7  
+
+1 6
+
+4 18
+
+1 3
+
+15
+
+Output
+
+Maximum profit is:- 55.33
+
+Explanation
+
+Fill the sack with highly profitable items. For the above example, the sack contains {1,2,3,5,6,7} items.
+
+Input format :
+First input is a integer corresponding to the n, the number of items. Followed by n number of input corresponding to the weight(float) and profit(float) of the items.
+
+Output format :
+Output is a maximum profit as a float with two decimal precisions.
+
+Sample test cases :
+Input 1 :
+7
+2 10
+3 5
+5 15
+7 7  
+1 6
+4 18
+1 3
+15
+Output 1 :
+Maximum profit is:- 55.33
+Input 2 :
+5
+12 4
+1 2
+2 2
+1 1
+4 10
+15
+Output 2 :
+Maximum profit is:- 17.33

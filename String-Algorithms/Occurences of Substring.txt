@@ -1,0 +1,33 @@
+Find the occurrence of SubString in the main String.
+
+Example
+
+Input
+
+captain
+
+cap
+
+Output
+
+Found at index 0
+
+Input format :
+First string is the main String
+
+Second string is the sub string.
+
+Output format :
+Refer to the sample test cases.
+
+Sample test cases :
+Input 1 :
+captain
+cap
+Output 1 :
+Found at 0
+Input 2 :
+captain
+Cap
+Output 2 :
+Not Found

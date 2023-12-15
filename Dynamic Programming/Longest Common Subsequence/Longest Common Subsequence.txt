@@ -1,0 +1,22 @@
+Write a program to find the length of LCS between the given two strings using Dynamic Programming(DP).
+
+Input format :
+Both String1 and String2 are the inputs.
+
+Output format :
+The length of LCS between the given strings.
+
+Code constraints :
+1 <= String length <= 10000
+
+Sample test cases :
+Input 1 :
+TABLE
+TEABLUE
+Output 1 :
+5
+Input 2 :
+SubString
+SubSequence
+Output 2 :
+5

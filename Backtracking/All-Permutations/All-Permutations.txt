@@ -1,0 +1,49 @@
+Write a program to print all the permutations of a given string.
+
+Note: Use backtracking
+
+Example
+
+Input
+
+abc
+
+Output
+
+abc
+
+acb
+
+bac
+
+bca
+
+cba
+
+cab
+
+Explanation
+
+Use backtracking method to print all the permutations of a given string.
+
+Input format :
+The input consists of a string.
+
+Output format :
+The output prints all the permutations of a given string.
+
+Sample test cases :
+Input 1 :
+abc
+Output 1 :
+abc
+acb
+bac
+bca
+cba
+cab
+Input 2 :
+xy
+Output 2 :
+xy
+yx

@@ -1,0 +1,26 @@
+Write a Program to implement the Range Minimum Query of a Segment Tree.
+
+Input format :
+Input:
+
+6
+
+1 3 2 7 9 11
+
+1
+
+5
+
+Output format :
+Output:
+
+Minimum of values in range [1,5] is = 2
+
+Sample test cases :
+Input 1 :
+6
+1 3 2 7 9 11
+1 
+5
+Output 1 :
+Minimum of values in range [1, 5] is = 2
